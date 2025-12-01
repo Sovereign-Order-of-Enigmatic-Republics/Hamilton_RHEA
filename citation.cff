@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "A Theoretical Hamiltonian Model for Entropy-Conserving Symbolic Computation in the RHEA–UCM Framework"
+message: "If you use this theoretical model, please cite the paper below."
+authors:
+  - family-names: Roe
+    given-names: Paul M.
+    affiliation: "TecKnows, USA"
+date-released: 2025-12-01
+license: "RHEA-Core Public Grant v1.0"
+identifiers:
+  - type: doi
+    value: "10.0000/rhea.ucm.hamiltonian.2025"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Roe
+      given-names: Paul M.
+  year: 2025
+  title: "A Theoretical Hamiltonian Model for Entropy-Conserving Symbolic Computation in the RHEA–UCM Framework"
+  journal: "Preprint"
