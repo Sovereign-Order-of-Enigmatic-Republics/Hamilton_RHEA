@@ -117,9 +117,9 @@ All experiments run with:
 ```bash
 pip install -r requirements.txt
 
-python src/experiments/macrocycle_demo.py
-python src/experiments/volume_preservation_test.py
-
+python -m rhea_hamiltonian.experiments.volume_preservation_test
+python -m rhea_hamiltonian.experiments.macrocycle_demo
+----------------------------------------------------------------------------------------------------------------------------
 The notebooks in notebooks/ provide guided, visual explanation.
 
 🔬 What You Can Verify Here
