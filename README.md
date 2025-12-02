@@ -1,3 +1,8 @@
+<h3 align="center">
+  <b>Zadeian Labs</b><br>
+  <sub>Sovereign Order of Enigmatic Republics</sub>
+</h3>
+
 # Hamilton_RHEA
 “A Theoretical Hamiltonian Model for Entropy-Conserving Symbolic Computation in the RHEA–UCM Framework” (Roe, 2025)
 
