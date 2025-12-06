@@ -161,7 +161,7 @@ This repository makes no claims regarding real hardware, energy savings, thermod
 ---
 
 # ============================================================
-# 📄 **LICENSE (RHEA–Core Public Grant v1.0)**
+# 📄 **LICENSE (RHEA–Core Public Grant v2.1)**
 # ============================================================
 
 ```md
