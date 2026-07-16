@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
-"""
-Probabilistic entropy-aware scheduler.
-Implements Equation (7.1')
-"""
+"""Probabilistic entropy-aware scheduler."""
+
+from __future__ import annotations
 
 import random
+from collections.abc import Callable
+from typing import Optional, TypeVar
 
-def choose_gate(theta, reversible_fn, irreversible_fn):
-    """
-    theta in (0,1].
-    With probability theta -> reversible, else irreversible.
-    """
-    if random.random() < theta:
-        return reversible_fn()
-    else:
-        return irreversible_fn()
+T = TypeVar("T")
+
+
+def choose_gate(theta: float, reversible_fn: Callable[[], T], irreversible_fn: Callable[[], T], *, rng: Optional[random.Random] = None) -> T:
+    if not 0.0 <= theta <= 1.0:
+        raise ValueError("theta must lie in [0, 1]")
+    source = rng or random
+    return reversible_fn() if source.random() < theta else irreversible_fn()
